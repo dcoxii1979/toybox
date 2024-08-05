@@ -74,13 +74,13 @@ endchoice
 
 config TOYBOX_LIBCRYPTO
        bool "Use libcrypto (OpenSSL/BoringSSL)"
-       default n
+       default y
        help
          Use faster hash functions out of external -lcrypto library.
 
 config TOYBOX_LIBZ
        bool "Use libz (zlib)"
-       default n
+       default y
        help
          Use libz for gz support.
 
